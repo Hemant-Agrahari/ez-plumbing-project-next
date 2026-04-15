@@ -1,0 +1,205 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ebebeb;
+  padding-block: 16px;
+}
+.services {
+  font-family: var(--font-outfit);
+  font-weight: 500;
+}
+.banner h1 {
+  font-size: 40px;
+  color: #222222;
+  margin-bottom: 8px;
+}
+.services a,
+.banner a {
+  color: #319a52;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 0.3s all;
+  /* font-weight: 700; */
+}
+.services a:hover,
+.banner a:hover {
+  color: #319a52;
+  text-decoration: underline;
+}
+.banner a strong {
+  font-weight: 700;
+}
+.img-disc-wrapper {
+  background-image: url(/images/img-disc-wrapper-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-disc-wrapper .sec_head p strong,
+.img-disc-wrapper h2 strong,
+.img-disc-wrapper h2 {
+  font-weight: 600 !important;
+  font-size: 38px;
+  color: #3ab54b !important;
+}
+.m-b-35 {
+  margin-bottom: 35px;
+}
+.img-disc-wrapper .h3 {
+  font-family: var(--font-outfit);
+  font-display: swap;
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #222;
+  line-height: 40px;
+  margin: 0;
+}
+.services .p-txt,
+.services .img-disc-wrapper .info-columns div,
+.services .img-disc-wrapper p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #222;
+  margin-bottom: 16px;
+  font-weight: 400;
+  padding: 0 !important;
+}
+.p-txt strong {
+  font-weight: 600 !important;
+  line-height: 30px;
+  font-size: 22px;
+}
+.para-txt strong {
+  font-weight: 600 !important;
+  font-size: 38px;
+  color: #3ab54b !important;
+}
+.txt-block .cstm-para {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 500;
+  font-size: 16px;
+  color: #222;
+  line-height: 26px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.services .h-f-s-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+ul.custm-ul {
+  padding: 0px;
+}
+.blog-detail-page .signs-of-a-slab-leak-parent ul li,
+ul.custm-ul li {
+  padding-left: 23px;
+  position: relative;
+  list-style: none;
+  color: #333333;
+  line-height: 1.8;
+}
+.blog-detail-page .signs-of-a-slab-leak-parent ul li::after,
+ul.custm-ul li:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #3ab54b;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 9px;
+}
+.sec_head {
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.why-section-bg .sec_head {
+  margin-bottom: 32px !important;
+}
+.sec_head .main_para_p {
+  /* font-family: "Raleway"; */
+  font-display: swap;
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #222;
+  line-height: 35px;
+  margin-bottom: 8px;
+  max-width: 70%;
+}
+.sec_head .h2 {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: 38px;
+  color: #3ab54b;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sec_head .h3 {
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: 34px;
+  color: #222 !important;
+  line-height: 50px;
+  margin: 0;
+}
+.bg-green-box {
+  background-color: #3ab54b;
+}
+.cstm-box-block {
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: 3px 3px 10px #908f8f;
+  padding: 30px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.bg-black-block {
+  background-color: #319a52;
+}
+.box_title_par {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.bg-black-block .box_paragraph,
+.box_paragraph {
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+}
+.slider-wrapper .slick-slide {
+  margin: 0 15px;
+}
+.slider-wrapper .slick-slide > div {
+  display: flex;
+}
+.slider-wrapper .slick-slide > div .details {
+  height: 100%;
+}
+.cstm-box-block .top-cstm-img {
+  margin-bottom: 35px;
+}
+/* .why-section-wrapper {
+  background-image: url(/images/why-section-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

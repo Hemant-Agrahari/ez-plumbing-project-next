@@ -1,0 +1,115 @@
+.page-404-style{
+    padding-block: clamp(35px,4vw,100px);
+}
+.page-404-style .page-title-txt {
+    text-align: center;
+    color: #000;
+    font-size: clamp(20px,4vw,30px);
+    font-weight: 700;
+    margin: 0px auto 10px;
+}
+.page-404-style .p-txt-style {
+   
+        width: 100%;
+        text-align: center;
+        color: #2f3630;
+        font-size: clamp(14px,2vw,18px);
+        font-weight: 300;
+        margin: 0px auto 0;
+        display: inline-block;
+        margin-bottom: 24px;
+        line-height: normal;
+   
+}
+.page-404-style  .breadcrumbs {
+    --padding-base: 16px;
+    --padding-41xl: 60px;
+    background-color: #ebebeb;
+    padding: clamp(12px, 2vw, 16px) var(--padding-41xl);
+    font-size: clamp(14px, 1.5vw, 16px);
+
+}
+.page-404-style .form-control {
+    border: solid 1px #3bb44d;
+    font-size: 18px;
+    flex: 1 1 auto;
+    width: 1%;
+    padding: 8px 15px;
+}
+.page-404-style .form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.page-404-style .input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin: 0;
+}
+.input-group-append{
+    height: 100%;
+}
+.page-404-style .btn-outline-success{
+
+padding: 8px 15px;
+height: 100%;
+font-size: clamp(16px,2vw,20px);
+line-height: normal;
+color: #fff;
+display: inline-block;
+    border: 2px solid #222;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.75rem 1rem 0.6rem;
+    transition: all 0.2s linear;
+    box-shadow: 0 15px 15px -11px rgba(0, 0, 0, 0.4);
+    background: #222;
+    border-radius: 6px;
+    margin-top: 1%;
+}
+.page-404-style h1 {
+    line-height: 100%;
+    font-size: clamp(90px, 10vw, 160px);
+    margin: 15px 0px;
+    font-weight: bold;
+    color: #3bb44d;text-align: center; display: block;
+    text-shadow: 1px 1px 1px #00593E, 2px 2px 1px #00593E, 3px 3px 1px #00593E, 4px 4px 1px #00593E, 5px 5px 1px #00593E, 6px 6px 1px #00593E, 7px 7px 1px #00593E, 8px 8px 1px #00593E, 25px 25px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.page-404-style  .sitemap-list span.circle-img {
+    width: 20px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #319a52;
+    border-radius: 100px;
+    outline: 1px solid #319a52;
+    outline-offset: 3px;margin-right: 15px;
+    flex:  0 0 6px;
+}
+.page-404-style  .sitemap-list li{ 
+  display: flex;
+   align-items: center; margin-bottom: 10px; }
+   .page-404-style  .sitemap-list{padding: clamp(5px, .9vw, 10px);}
+   .page-404-style  .sitemap-list li a:hover{
+  color: #319a52;
+
+}
+.page-404-style  .sitemap-list li a{   font-size: clamp(14px, 1.4vw, 16px); }
+.page-404-style  .column-3 {
+  column-count: 3;
+  text-align: left;
+}
+@media (max-width:1080px){
+    .page-404-style   .column-3 {
+      column-count: 2;
+  }
+}
+@media (max-width:768px){
+    .page-404-style   .column-3 {
+      column-count: 1;
+  }
+}

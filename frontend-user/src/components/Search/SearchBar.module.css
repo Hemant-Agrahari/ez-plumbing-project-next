@@ -1,0 +1,68 @@
+.searchBar {
+    border-radius: var(--br-5xs);
+    background-color: var(--previewthemeforestnet-white);
+    border: 1px solid var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-11xs) 0 var(--padding-lg);
+    gap: var(--gap-xl);
+    padding-right: 0;
+    width: 100%;
+  }
+  
+  .searchInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding: var(--padding-2xs) 0 0; */
+    margin: auto;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .rectangleDiv {
+    height: 46px;
+    width: 60px;
+    position: relative;
+    border-radius: 0 var(--br-6xs) var(--br-6xs) 0;
+    background-color: var(--primary);
+    display: none;
+  }
+  
+  .searchMdIcon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  
+  .groupDiv {
+    border-radius: 0 var(--br-6xs) var(--br-6xs) 0;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-sm);
+  }
+  
+  .textField3 {
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  .textField3::placeholder {
+    color: #000000;
+  }
+  

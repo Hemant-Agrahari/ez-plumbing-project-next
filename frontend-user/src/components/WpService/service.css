@@ -1,0 +1,299 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ebebeb;
+  padding-block: 16px;
+}
+.services{
+  font-family: var(--font-outfit);
+  font-weight: 500;
+}
+.banner h1{
+  font-size: 40px;
+  color: #222222;
+  margin-bottom: 8px;
+}
+.services a,
+.banner a {
+  color: #319a52;
+  text-decoration: none;
+  background-color: transparent;
+  transition: .3s all;
+  /* font-weight: 700; */
+}
+.services a:hover,
+.banner a:hover {
+  color: #319a52;
+  text-decoration: underline;
+}
+.banner a strong{
+  font-weight: 700;
+}
+.img-disc-wrapper{
+  background-image: url(/images/img-disc-wrapper-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-disc-wrapper .sec_head p strong,
+.img-disc-wrapper h2 strong,
+.img-disc-wrapper h2{
+  font-weight: 600 !important;
+    font-size: clamp(20px,3.1vw,38px);
+    color: #3ab54b !important;
+}
+.m-b-35{
+  margin-bottom: 35px;
+}
+.img-disc-wrapper .h3 {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #222;
+  line-height: 40px;
+  margin: 0;
+}
+ .services .p-txt,
+.services .img-disc-wrapper .info-columns div,
+.services .img-disc-wrapper p{
+  font-size: clamp(14px,3.1vw,16px);
+  line-height: clamp(22px,3.1vw,26px);
+  color: #222;
+  margin-bottom:16px;
+  font-weight: 400;
+  padding: 0 !important;
+}
+.services .img-disc-wrapper .info-columns div{
+  margin-bottom: 28px;
+}
+.p-txt strong {
+  font-weight: 600 !important;
+  line-height: clamp(22px,3.1vw,24px);
+  font-size: clamp(14px,3.1vw,16px);
+}
+.para-txt strong {
+  font-weight: 600 !important;
+  font-size: clamp(20px,3.1vw,38px);
+  color: #3ab54b !important;
+}
+.txt-block .cstm-para {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 500;
+  font-size: clamp(14px,3.1vw,16px);
+  color: #222;
+  line-height: clamp(22px,3.1vw,26px);
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.services .h-f-s-20 {
+  font-size: 20px ;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+ul.custm-ul {
+  padding: 0px;
+  margin-block:16px;
+}
+ul.custm-ul li {
+  padding-left: 23px;
+  position: relative;
+  list-style: none;
+  color: #333333;
+  line-height: 1.8;
+}
+ul.custm-ul li:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #3ab54b;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 9px;
+}
+ .sec_head {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.why-section-bg .sec_head{
+  margin-bottom: 32px !important;
+}
+.sec_head .h1-style {
+  font-weight: 600 !important;
+  line-height: clamp(34px,3.1vw,50px);
+  font-size: clamp(28px,3.1vw,40px);
+  color: #222;
+  margin-bottom:0;
+}
+.sec_head .h2 {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: clamp(20px,3.1vw,38px);
+  color: #3ab54b;
+  line-height: clamp(36px,3.1vw,50px);
+  margin: 0 auto;
+  text-align: center;
+}
+.sec_head .h3 {
+  font-family: var(--font-outfit);
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: 34px;
+  color: #222 !important;
+  line-height: clamp(36px,3.1vw,50px);
+  margin: 0;
+}
+.section-fifth .sec_head{
+  margin-bottom: clamp(20px,3.1vw,32px);
+}
+.section-fifth .sec_head .h3 {
+  font-weight: 600 !important;
+  font-size: 34px;
+  color: #222 !important;
+  line-height: 50px;
+  margin: 0;
+}
+.section-fifth .sec_head:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  border-bottom: 3px solid #222;
+  top: 0;
+  bottom: -15px;
+  right: 0;
+  left: 0;
+  width: 30%;
+  margin: 0;
+}
+.sec_head p.h3 {
+  font-display: swap;
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #222;
+  line-height: clamp(28px,3.1vw,40px);
+  margin: 0;
+}
+.services .info-columns .sec_head{
+  position: relative;
+  margin-bottom: 32px;
+}
+.services .slider-wrapper{
+  background-image: url(/images/slider-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services .slider-wrapper .info-columns .sec_head{
+  margin-bottom: clamp(32px,3.1vw,48px);
+}
+.services .info-columns .sec_head:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-bottom: 3px solid #3ab54b;
+  top: 0;
+  bottom: -15px;
+  right: 0;
+  left: 0;
+  width: 30%;
+  margin: 0;
+}
+.services .slider-wrapper .info-columns .sec_head:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-bottom: 3px solid #3ab54b;
+  top: 0;
+  bottom: -15px;
+  right: 0;
+  left: 0;
+  width: 30%;
+  margin: 0 auto;
+}
+.image-container .para-txt {
+  /* font-family: "Raleway"; */
+  font-display: swap;
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #222;
+  line-height: clamp(36px,3.1vw,50px);
+  margin: 0;
+}
+.bg-green-box {
+  background-color: #f7f7f7;
+}
+.cstm-box-block {
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: 3px 3px 10px #908f8f;
+  padding: 30px;
+height: 100%;
+  margin-bottom: 30px;
+}
+.bg-black-block {
+  background-color: #f7f7f7;
+}
+ .box_title_par {
+  font-family: var(--font-outfit);
+
+  font-display: swap;
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #505050;
+}
+.bg-black-block .box_paragraph,.box_paragraph{
+  color:#767676;
+  font-size: clamp(14px,2.1vw,16px);
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.services .slider-wrapper .service-boxes .slab-leak-detection-box{
+  margin: 8px;
+}
+.slider-wrapper .slick-slide{
+  margin: 0 15px;
+}
+.slider-wrapper .slick-slide > div{
+  display: flex;
+}
+.slider-wrapper .slick-slide > div .details{
+  height: 100%;
+}
+.cstm-box-block .top-cstm-img {
+  display: none;
+  margin-bottom: 35px;
+}
+/* .why-section-wrapper{
+  background-image: url(/images/why-section-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+@media(max-width:767px){
+  .sec_head .h3,.image-disc-wrapper .info-columns,
+  .sec_head .h1-style {
+    text-align: center;
+  }
+  .services .slider-wrapper .info-columns .sec_head:before,
+  .services .info-columns .sec_head:before {
+    width: 60%;
+    margin: 0px auto;
+}
+}
+
+
+/* hhhhhhh */

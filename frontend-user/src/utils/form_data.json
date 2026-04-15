@@ -1,0 +1,43 @@
+{
+  "bannertitle": "",
+  "bannerBgImage": "",
+  "content1": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentBtnText": "",
+    "contentBtnLink": ""
+  },
+  "content2": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentFormText": ""
+  },
+  "content3": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentImage": "",
+    "contentAltImage": "",
+    "contentTitleImage": ""
+  },
+  "ctaButton": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentBgImage": "",
+    "contentBtnText": "",
+    "contentBtnLink": ""
+  },
+  "content4": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentImage": "",
+    "contentAltImage": "",
+    "contentTitleImage": ""
+  },
+  "content5": {
+    "contentTitle": "",
+    "contentText": "",
+    "contentImage": "",
+    "contentAltImage": "",
+    "contentTitleImage": ""
+  }
+}
