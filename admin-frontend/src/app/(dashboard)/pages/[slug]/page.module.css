@@ -1,0 +1,90 @@
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.btnStyle {
+  padding: 14px 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: var(--primary-2);
+  border-color: var(--primary-2);
+  display: inline-block;
+  cursor: pointer;
+
+}
+.btnStyle:hover{
+  color: #fff;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+}
+
+.frameParent,
+.navbar,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+}
+
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.SearchField {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.BtnBlue {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  padding: 9px 30px;
+  background: var(--primary-2);
+  border-radius: 5px;
+  font-family: outfit;
+}
+
+.BtnBlue:hover{
+  color: #fff;
+}
+
+.designOption {
+  padding: 9px !important;
+  border-radius: 5px;
+  border-color: var(--border-color-sky-blue-pastel);
+  height: 49px;
+}

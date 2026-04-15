@@ -1,0 +1,64 @@
+{
+  "breadcrumbTitle": "About us",
+  "banner": {
+    "bannerTitle": "About us",
+    "bannerContent": "EZ Plumbing started its business to satisfy clients by providing prompt, high-quality service. Even with so many competitors in the market, we strive to be the best. Our mission is to deliver exceptional plumbing services while keeping your house dry and secure.<br><br><div>For any plumbing needs, EZ Plumbing is the company to call. Our plumbers ensure excellent results, from routine drain cleaning to professional assistance with significant problems. For trustworthy services, you can rely on EZ Plumbing to provide top-notch services.<br></div>",
+    "image": {}
+  },
+  "content": [
+    {
+      "contentTitle": "",
+      "contentText": "<div>Thanks to the commitment and enthusiasm of our employees, EZ Plumbing has expanded to become the most reputable and well-known company in California, offering a wide range ofplumbing services.</div><div>Our team is here to assist with water damage repair.We offer prompt and efficient fixes for any problems your home may have with water. Our all-inclusivewater damage restoration serviceguarantees that your space is restored and safeguarded from leaks and flooding. You can rely on us to complete the task and stop additional harm.</div><div>Furthermore, if your foundation is wet and having problems, our professionals can repair slab leaks. We are experts in accurateslab leak detection, which effectively locates and addresses leaks. You can rely on EZ Plumbing to handle any slab leaks using practical fixes, keeping the foundation of your house sturdy and secure.</div><div>Apart from our expertise in fixing slab leaks, we also provide competent water heater services. Whether you needwater heater repairor a new one to be installed, our staff is prepared to offer practical and trustworthy solutions. We’ll ensure yourwater heater installationis perfectly done so you can consistently have hot water in your home and feel more comfortable.</div><div>We provide professional drain repair and maintenance, among other services. Our crew maintains the optimal condition of your drains by repairing leaks and unclogging obstructions. You can rely on EZ Plumbing to provide complete solutions and guarantee the smooth operation of every part of your home’s plumbing system. Contact us for trustworthy assistance.</div>",
+      "contentImage": {},
+      "bannerTitle": "Our Services Comes With Guarantee"
+    },
+    {
+      "contentTitle": "",
+      "contentText": "<div>Our slab leak San Diego teams offer evidence-based inspection and reports about the pipes under the slab and all the leak-prone areas. You will be able to make a well-informed decision about the kind of repair that will best fit your requirements.</div><div>San Diego is our top priority, and we guarantee prompt assistance with quick response times. Additionally, we have locations in Orange County and Riverside County to provide prompt service throughout these areas.</div><div>Further ensuring that we can quickly help clients throughout these busy areas are our recently opened offices in Los Angeles, Irvine, and Anaheim. We promise prompt, effective emergency services anywhere you are with this expansion.</div><div><br></div>",
+      "contentImage": {},
+      "bannerTitle": "Our Emergency Service"
+    }
+  ],
+  "serviceSlider": [
+    {
+      "serviceSliderImage": {},
+      "cardTitle": "FREE",
+      "cardSubTitle": "Service Call",
+      "cardContent": "If you are looking for regular maintenance, complex repairs, drain cleaning, or major installation and replacement, you can count on us. We manage all plumbing codes &amp; the latest tools."
+    },
+    {
+      "serviceSliderImage": {},
+      "cardTitle": "15%",
+      "cardSubTitle": "Discount Available",
+      "cardContent": "We do it right the first time. Our complete focus is on your requirements and budget to provide a positive customer experience. We are on your side to serve you hassle-free services."
+    },
+    {
+      "serviceSliderImage": {},
+      "cardTitle": "24/7 Service",
+      "cardSubTitle": "24/7 Service",
+      "cardContent": "Whether day or night, you deserve high-quality plumbing services at affordable rates. From complex repairs to complete installation, you will get quick solutions when needed."
+    },
+    {
+      "serviceSliderImage": {},
+      "cardTitle": "FREE",
+      "cardSubTitle": "FREE  Estimate",
+      "cardContent": "EZ Plumbing USA is one of the most experienced and licensed companies, so you can expect effective solutions that fit your budget. Our team can handle all the plumbing needs that are a huge headache for you."
+    }
+  ],
+  "testimonials": [
+    {
+      "rating": 4,
+      "testimonialContent": "We needed to install a tankless water heater and we got estimates from 5 different companies and we chose EZ Plumbing USA because it has the best estimates fit into our budget. We called them and they came to our house on same day. They carefully install our water heater and made us understood all characteristics. They were very professional and honest. Highly recommended.",
+      "testimonialImage": {},
+      "altTitle": "Mr. John Doea",
+      "testimonialName": "Mr. John Doea"
+    },
+    {
+      "rating": 5,
+      "testimonialContent": "We needed to install a tankless water heater and we got estimates from 5 different companies and we chose EZ Plumbing USA because it has the best estimates fit into our budget. We called them and they came to our house on same day. They carefully install our water heater and made us understood all characteristics. They were very professional and honest. Highly recommended.",
+      "testimonialImage": {},
+      "altTitle": "Mr. John Doe",
+      "testimonialName": "Mr. John Doea"
+    }
+  ]
+}

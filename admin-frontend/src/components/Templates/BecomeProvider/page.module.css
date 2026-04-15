@@ -1,0 +1,78 @@
+.templateSection{
+  padding: 16px 0;
+}
+.templateSection h4{
+   font-size: 20px;
+   margin-bottom: 16px;
+  }
+  .templateSection h5{
+    font-size: 17px;
+    margin-bottom: 16px;
+    color: #adadad;
+   }
+   .w100{
+    width: 100%;
+    margin-bottom: 16px;
+   }
+   .mb4{
+    position: relative;
+    margin-bottom: 32px !important;
+    box-shadow: 0px 1px 4px 1px #e4e0e0;
+    padding: 16px 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+   }
+   .mb4 input:focus{
+    box-shadow: none;
+    outline: 2px solid #000;
+    border-color: transparent;
+   }
+   .trashIcon{
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    cursor: pointer;
+    
+   }
+   .trashIcon:hover{
+    color: #bb2124;
+    transition: 0.4s all ;
+   }
+   .btnStyle{
+    background: #008dd2;
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 14px;
+    border: none;
+   }
+   .btnStyle:hover{
+    background: #008dd2;
+    color: #fff;
+   }
+   .imageWrapper{
+    display: flex;
+    gap: 32px;
+    margin-top: 8px;
+    align-items: center;
+   }
+   .imageWrapper img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+   }
+   .inputGroup{
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    margin-bottom: 16px;
+   }
+   .inputGroup input{
+    width: 50%;
+   }
+   .btnEnd{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }

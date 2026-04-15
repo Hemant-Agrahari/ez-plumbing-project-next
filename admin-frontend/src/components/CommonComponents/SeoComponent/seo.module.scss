@@ -1,0 +1,246 @@
+.groupDiv {
+    width: 504px;
+    background-color: var(--color-gray-100);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-5xl) var(--padding-6xl) var(--padding-24xl) var(--padding-11xl);
+    box-sizing: border-box;
+
+    min-width: 504px;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+    color: var(--primary-2);
+}
+
+.frameChild1 {
+    width: 504px;
+    height: 956px;
+    background-color: var(--color-gray-100);
+    display: none;
+}
+
+.selectImageWrapper {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+     width: 100%;
+}
+
+ 
+.selectImage {
+    position: relative;
+    text-decoration: underline;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 104px;
+    z-index: 1;
+}
+
+
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 18px 33px;
+    border-radius: 8px;
+    border-color: #ddd3d3;
+}
+
+.dropdown::before {
+    content: '▼';
+    /* Custom arrow character */
+    position: absolute;
+    right: 30px;
+    /* Position the arrow on the left */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Prevent interfering with clicks */
+    font-size: 12px;
+    color: #555;
+    /* Adjust color as needed */
+}
+
+.imagePreview {
+    align-self: stretch;
+    width: max-content;
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 1;
+    margin: 20px 0px;
+}
+
+.imagePreviewImg {
+    height: 200px;
+    max-width: 400px;
+}
+
+.frameParent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.rectangleParent1 {
+    border-radius: var(--br-5xs);
+    background-color: var(--background-default);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 15px;
+    z-index: 1;
+}
+
+.frameChild2 {
+    height: 65px;
+    width: 449px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--background-default);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+}
+
+.designHr {
+    width: 112px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-outfit);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    color: var(--color-dimgray);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+}
+
+.designOptionIcons {
+    width: 27.1px;
+    height: 14.2px;
+    position: relative;
+    z-index: 2;
+}
+
+.designOptionIconsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+}
+
+.frameParent1,
+.rectangleParent1 {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+}
+
+.seo {
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 54px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.frameParent,
+.frameWrapper,
+.seoParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frameWrapper {
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.frameParent,
+.seoParent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray);
+}
+
+.seoParent {
+    flex-direction: column;
+    padding: 0 0 var(--padding-2xs-2);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--primary-2);
+    font-family: var(--font-outfit);
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.btnStyle {
+    padding: 14px 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: var(--primary-2);
+    border-color: var(--primary-2);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btnStyle:hover{
+    color: #fff;
+  }
+
+.SeoInputComponents {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding-right: 30px;
+    /* Ensure the trash icon has enough space */
+}
+
+.SeoInputComponents input {
+    flex: 1;
+    /* Make the text area take the remaining space */
+}
+.displayNone{
+    display: none;
+}

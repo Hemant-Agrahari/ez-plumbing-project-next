@@ -1,0 +1,96 @@
+/*location new css start*/
+.locations .location-grid-col {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); */
+  row-gap: 25px;
+}
+.locations .location-grid-col .location-grid-item {
+  width: 100%;
+  border-bottom: 1px dashed #a5a5a5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  padding-bottom: clamp(15px, 1.8vw, 25px);
+}
+.locations .location-grid-col .location-name {
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: 500;
+}
+/*location new css end*/
+
+.locations .breadcrumbs,
+.locations .breadcrumbs1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.locations .breadcrumbs1 {
+  gap: 8px;
+}
+.locations .breadcrumbs {
+  align-self: stretch;
+  background-color: #ebebeb;
+  padding: 16px 0px;
+}
+
+.locations .home {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.locations .chevron-right-double-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.locations  .thank-you1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #319a52;
+  display: inline-block;
+  min-width: 75px;
+}
+.locations  .breadcrumbs {
+  align-self: stretch;
+  background-color: #ebebeb;
+  padding: 16px 0px;
+}
+.f-36{font-size: clamp(28px, 2.5vw, 36px);}
+.locations .button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-7xl) var(--padding-xl) 27px;
+  background-color: var(--color-mediumseagreen-200);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+/* .locations .area-we-served, .button-container, .button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+} */
+
+@media(max-width: 575px) {
+  .locations .button1{
+    padding-block: 15px;
+    font-size: 14px;
+  }
+}

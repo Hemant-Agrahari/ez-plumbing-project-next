@@ -1,0 +1,31 @@
+.blogCard{
+    background: #fff;
+border: 1px solid rgb(225, 225, 225);
+border-radius: 16px;
+overflow: hidden;
+margin: 0 8px;
+height: 100%;
+
+}
+.blogCard img{
+    height: 128px;
+    max-height: 128px;
+}
+.blogContent{
+padding: 16px ;
+}
+.blogContentTitle{
+    display: -webkit-box; /* Use Flexbox */
+    -webkit-box-orient: vertical; /* Set the box orientation */
+    -webkit-line-clamp: 3; /* Limit to 2 lines */
+    overflow: hidden; /* Hide the overflow */
+    text-overflow: ellipsis; /* Add ellipsis */
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.blogContentTitle a{
+    color:#2C2E47;
+    font-size: 20px;
+    font-weight: 500;
+}

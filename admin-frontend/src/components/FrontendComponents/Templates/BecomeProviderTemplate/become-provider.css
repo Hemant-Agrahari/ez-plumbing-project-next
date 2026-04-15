@@ -1,0 +1,129 @@
+.become-provider .home {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.become-provider .chevron-right-double-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.become-provider .thank-you1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #319a52;
+  display: inline-block;
+  min-width: 75px;
+}
+.become-provider .breadcrumbs,
+.become-provider .breadcrumbs1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.become-provider .breadcrumbs1 {
+  gap: 8px;
+}
+.become-provider .breadcrumbs {
+  align-self: stretch;
+  background-color: #ebebeb;
+  padding: 16px 0px;
+}
+.become-provider .thank-you-for,
+.become-provider .thank-you2 {
+  align-self: stretch;
+  position: relative;
+}
+.become-provider .thank-you2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.become-provider .thank-you-for {
+  line-height: 140%;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+  font-weight: 400;
+}
+.become-provider .banner,
+.become-provider,
+.become-provider .thanks-message {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.become-provider .thanks-message {
+  width: 962px;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.become-provider .banner {
+  text-align: center;}
+  .become-provider .banner {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 60px var(--padding-xl);
+  box-sizing: border-box;
+  /* background-image: linear-gradient(113.98deg, rgba(255, 255, 255, 0.82), 25.41%, rgba(49, 160, 91, 0.82) 105.28%), url(/templates/thank-you.png); */
+ background: url(/templates/beacome-proivder-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 36px;
+  color: #2d2d2d;
+}
+.become-provider {
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+  color: #000;
+}
+@media screen and (max-width: 1000px) {
+  .become-provider .banner {
+    gap: 61px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .become-provider .thank-you2 {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .become-provider  .thanks-message {
+    gap: 16px;
+  }
+  .become-provider .banner {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .become-provider .breadcrumbs {
+    box-sizing: border-box;
+  }
+  .become-provider .thank-you2 {
+    font-size: 22px;
+  }
+  .become-provider .banner {
+    gap: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  .become-provider .thank-you-for{font-size: 14px;}
+}

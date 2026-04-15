@@ -1,0 +1,30 @@
+.FieldWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.BtnAlign{
+    display: flex;
+    margin-top: 10px;
+    justify-content:end;
+    gap: 20px;
+}
+.SelectedImage{
+    width: 244px;
+    height: 206px;
+}
+.PreviewImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ImagePreviews{
+    margin-bottom: 30px;
+}
+.ModalTitle{
+    color: var(--primary-2);
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+}

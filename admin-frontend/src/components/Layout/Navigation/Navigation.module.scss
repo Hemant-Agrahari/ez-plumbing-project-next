@@ -1,0 +1,152 @@
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+
+}
+.profilePicture {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 8px 16px rgba(145, 158, 171, 0.1);
+  background-color: var(--background-default);
+}
+
+.profile {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+
+.profileLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+
+.icons {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue);
+}
+
+.user01Icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.iconsParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue);
+}
+
+.bell01Icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.rectangleParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+.frameItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue);
+}
+
+.logOut01Icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rectangleGroup {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+.navigation,
+.userActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.userActions {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+
+.navigation {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-5xl) var(--padding-sm) var(--padding-6xl);
+  position: relative;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+}

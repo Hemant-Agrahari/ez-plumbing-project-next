@@ -1,0 +1,66 @@
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+
+}
+
+.main {
+  overflow: auto;
+  height: calc(100vh - 1px);
+
+}
+
+.frameParent,
+.navbar,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+}
+
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.frameParents {
+   gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media(max-width: 1399px) {
+  .frameParents {
+    gap: 8px;
+  }
+}

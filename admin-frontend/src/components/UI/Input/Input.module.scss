@@ -1,0 +1,61 @@
+.formControl {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 25px;
+  position: relative;
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.frameChild {
+  height: 65px;
+  width: 1032px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--background-default);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--background-default);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 16px;
+}
+
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 15px;margin-top: 5px;
+}
+
+.InputLabel {
+  color: #888888;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: outfit;
+  margin-bottom: 10px;
+  padding-left: 27px;
+}

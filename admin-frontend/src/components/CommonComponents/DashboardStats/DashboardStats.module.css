@@ -1,0 +1,134 @@
+/* .frameChild {
+  height: 154px;
+  width: 372px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  z-index: 2;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.div,
+.superscript {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 73px;
+  z-index: 1;
+}
+.superscript {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -2.4px;
+  line-height: 40px;
+  font-family: inherit;
+  min-width: 20px;
+}
+.parent,
+.superscriptWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.superscriptWrapper {
+  width: 20px;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.parent {
+  flex-direction: row;
+  gap: var(--gap-11xs);
+  flex-shrink: 0;
+}
+.franchise {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 24px;
+  color: var(--text-mid);
+  display: inline-block;
+  min-width: 104px;
+  max-width: 234.66px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--primary-2);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-xl);
+  }
+} */
+
+.rectangleParents{
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+  background: #F8F8F8;
+  flex: 0 0 calc(25% - 24px);
+  align-items: center;
+}
+.frameItems{
+  width: clamp(50px ,4vw ,90px);
+  height:  clamp(50px ,4vw ,90px);
+}
+.parents{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.divs{
+  color: var(--primary-2);
+  font-weight: 600;
+  font-size: clamp(32px,4vw,48px);
+}
+.superscriptWrappers{
+  color: var(--primary-2);
+  font-weight: 500;
+  font-size: clamp(22px,4vw,28px);
+}
+.franchise{
+  color:#494B4C;
+  font-size: clamp(20px,4vw,24px);
+  margin-top: 4px;
+  white-space: nowrap;
+}
+@media(max-width: 1399px){
+  .rectangleParents{
+    flex: 0 0 calc(25% - 30px);
+  }
+}

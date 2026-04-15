@@ -1,0 +1,770 @@
+.about-us .home {
+    text-decoration: none;
+    /* position: absolute; */
+    top: 1px;
+    left: 0;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 43px;
+  }
+  .homes{
+    color: #616161;
+    font-weight: 500;
+  }
+  /* .chevron-right-double-icon {
+    position: absolute;
+    top: 0;
+    left: 54px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  } */
+  .about-us  .home-breadcrumb {
+    height: 24px;
+    width: 75px;
+    position: relative;
+    display: contents;
+  }
+  .max-container .container{
+    max-width: 1920px;
+    padding-inline: clamp(20px, 5vw, 60px);
+  }
+
+ .breadcrum-section{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+  .about-us  .about-us1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 68px;
+    white-space: nowrap;
+  }
+  .about-us  .about-breadcrumb,
+  .about-us  .breadcrumb-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 12px 0; */
+  }
+  .about-us  .about-breadcrumb {
+    flex-direction: column;
+    padding: 1px 0 0;
+    color: var(--color-mediumseagreen);
+  }
+  .about-us  .breadcrumb-col{
+    gap: 8px;
+  }
+  .about-us  .breadcrumbs {
+    align-self: stretch;
+    background-color: #ebebeb;
+    flex-direction: row;
+    padding: 16px var(--padding-41xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: #000;
+    font-family: var(--font-outfit);
+  }
+  .about-us  .about-us2,
+  .about-us  .ez-plumbing-started,
+  .about-us  .for-any-plumbing {
+    width: 962px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .about-us  .about-us2 {
+    margin: 0;
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--color-darkslategray);
+  }
+  .about-us  .ez-plumbing-started,
+  .about-us  .for-any-plumbing {
+    line-height: 140%;
+  }
+  .about-us  .banner {
+    /* align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; */
+    padding: var(--padding-41xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: 32px;
+    background-image: linear-gradient(113.98deg, rgba(255, 255, 255, 0.82), 40.41%, rgba(49, 160, 91, 0.82) 105.28%), url(/templates/about-us-banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-dimgray);
+    font-family: var(--font-outfit);
+    background-position-y: 45%;
+    padding: 60px 124px;
+  }
+  .about-us  .banner .about-us2{
+  font-size: 32px;
+  color: #2D2D2D;
+  font-weight: 500;
+  }
+  .about-us  .our-services-comes {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .about-us  .installing-ceramic-floor-tiles-icon {
+    height: 584px;
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    min-width: 422px;
+    min-height: 584px;
+  }
+  .about-us  .frame-child {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+  }
+  .about-us  .ellipse-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .about-us  .plumbing-services {
+    font-weight: 600;
+    color: var(--color-forestgreen);
+  }
+  /* .about-us  .thanks-to-the-container {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 403px;
+    max-width: 100%;
+  } */
+  .about-us  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .about-us  .frame-item {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+  }
+  .about-us  .ellipse-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .about-us  .water-damage-repair,
+  .about-us  .water-damage-restoration {
+    font-weight: 600;
+    color: var(--color-forestgreen);
+  }
+  .about-us .our-team-is-container {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 403px;
+    max-width: 100%;
+  }
+  .about-us .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .about-us .frame-inner {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+  }
+  .about-us .ellipse-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .about-us .slab-leak-detection {
+    font-weight: 600;
+    color: var(--color-forestgreen);
+  }
+  .about-us .furthermore-if-your-container {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 403px;
+    max-width: 100%;
+  }
+  .about-us .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .about-us .ellipse-div {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+  }
+  .about-us .ellipse-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .about-us .water-heater-installation,
+  .about-us .water-heater-repair {
+    font-weight: 600;
+    color: var(--color-forestgreen);
+  }
+  .about-us .apart-from-our-container {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 403px;
+    max-width: 100%;
+  }
+  .about-us .frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .about-us .frame-child1 {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+  }
+  .about-us .ellipse-wrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .about-us .drain-repair-and {
+    font-weight: 600;
+    color: var(--color-forestgreen);
+  }
+  .about-us .we-provide-professional-drain-container {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 403px;
+    max-width: 100%;
+  }
+  .about-us .frame-parent1 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-base);
+  }
+  .about-us .frame-parent1,
+  .about-us .guarantee-image,
+  .about-us .team {
+    display: flex;
+    max-width: 100%;
+  }
+  .about-us .team {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    min-width: 422px;
+  }
+  .about-us .guarantee-image {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 60px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+  }
+  .about-us .our-emergency-service,
+  .about-us .our-services-comes-with-guaran {
+    font-size: var(--font-size-17xl);
+    color: var(--color-darkslategray);
+  }
+  .about-us .our-services-comes-with-guaran {
+    align-self: stretch;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-41xl);
+    box-sizing: border-box;
+    gap: var(--gap-21xl);
+    text-align: center;
+    font-family: var(--font-outfit);
+  }
+  .about-us .our-emergency-service {
+    margin: 0;
+    position: relative;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .about-us .further-ensuring-that,
+  .about-us .our-slab-leak,
+  .about-us .san-diego-is {
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+  }
+  .about-us .san-diego,
+  .about-us .slab-leak-service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .about-us .san-diego {
+    align-self: stretch;
+    gap: var(--gap-base);
+  }
+  .about-us .slab-leak-service {
+    flex: 1;
+    padding: 12.5px 0 0;
+    box-sizing: border-box;
+    min-width: 421px;
+  }
+  .about-us .h2-video-shape1png-icon,
+  .about-us .image-1-icon {
+    position: absolute;
+    top: 36px;
+    left: 213px;
+    width: 207px;
+    height: 222px;
+    object-fit: cover;
+  }
+  .about-us .image-1-icon {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    width: 328px;
+    height: 249px;
+    z-index: 1;
+  }
+  .about-us .image-2-icon {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    transform: scale(1.161);
+  }
+  .about-us .wrapper-image-2 {
+    position: absolute;
+    top: 121px;
+    left: 247px;
+    border-radius: var(--br-xl);
+    width: 328px;
+    height: 249px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-us .expert-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .about-us .count-on-ez-plumbing-usa-for-s,
+  .about-us .expert-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .about-us .expert-image-wrapper {
+    height: 370px;
+    width: 575px;
+    position: relative;
+    min-width: 575px;
+  }
+  .about-us .count-on-ez-plumbing-usa-for-s {
+    align-self: stretch;
+    background-color: var(--color-white);
+    padding: var(--padding-41xl);
+    box-sizing: border-box;
+    gap: 100px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-outfit);
+  }
+  .about-us .call-experts-now1,
+  .about-us .dont-let-plumbing {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  .about-us .dont-let-plumbing {
+    align-self: stretch;
+    font-weight: 600;
+  }
+  .about-us .call-experts-now1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .about-us .span-icon {
+    height: 44px;
+    width: 44.3px;
+    position: relative;
+    border-radius: 70px;
+    object-fit: contain;
+  }
+  .about-us .space {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .about-us .call-button,
+  .about-us .span-parent {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-9xs);
+  }
+  .about-us .span-parent {
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .about-us .call-button {
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+  }
+  .about-us .about-us,
+  .about-us .call-experts-now {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us .call-experts-now {
+    align-self: stretch;
+    background: radial-gradient(
+        50% 50%at 50% 50%,
+        rgba(255, 255, 255, 0.2),
+        rgba(49, 154, 82, 0.2)
+      ),
+      #fff;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-41xl);
+    box-sizing: border-box;
+    gap: var(--gap-21xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-outfit);
+  }
+  .about-us .about-us {
+    width: 100%;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .about-us  .ez-plumbing-started{
+  color: #6E6E6E;
+  font-size: 20px;
+  }
+  .about-us .our-services{
+  padding: 30px 0;
+  }
+  .about-us .our-services-comes,.about-us .our-emergency-service{
+  margin-bottom: 24px;
+  font-size: 32px;
+  }
+  .about-us .guarantee-image{
+  align-items: start;
+  }
+  .thanks-to-the-container,.our-slab-leak{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+  }
+  .thanks-to-the-container div,.our-slab-leak div{
+    padding-left: 28px;
+    position: relative;
+    color: #6E6E6E;
+  }
+  .our-slab-leak div{
+    padding-left: 0;
+  }
+  .thanks-to-the-container div::before{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #319A52;
+    content: '';
+    border-radius: 50%;
+    left: 0;
+    top: 4px;
+  }
+  .about-us .service-col {
+    display: flex !important;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: 20px;
+  }
+  .about-us .service-icon{
+    width: 40px;
+    height: 40px;
+  }
+  .about-us .service-icon img{
+  width: 100%;
+  height: 100%;
+  }
+  .about-us .service-name .card-title{
+    font-size: 28px;
+  color: #2D2D2D;
+  }
+  .about-us .service-name .card-sub-title{
+    font-size:18px;
+    color: #2D2D2D;
+  }
+  .about-us .service-name .dec{
+    color: #6E6E6E;
+    font-size: 12px;
+  }
+  .about-us .content-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+  }
+  .testimonial-img{
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1200px) {
+    .about-us .expert-image-wrapper {
+      flex: 1;
+    }
+    .about-us  .count-on-ez-plumbing-usa-for-s {
+      gap: 50px;
+      flex-wrap: wrap;
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .about-us  .about-us2,
+    .about-us  .our-services-comes {
+      font-size: var(--font-size-10xl);
+    }
+    .about-us  .our-services-comes-with-guaran {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .about-us .dont-let-plumbing,
+    .about-us .our-emergency-service {
+      font-size: var(--font-size-10xl);
+    }
+    .about-us .call-experts-now1,
+    .about-us  .space {
+      font-size: var(--font-size-13xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .about-us  .banner {
+      gap: var(--gap-base);
+      padding: 40px 16px !important;
+      
+    }
+    .about-us .installing-ceramic-floor-tiles-icon,
+    .about-us .thanks-to-the-container {
+      min-width: auto;
+    }
+    .about-us  .our-team-is-container {
+      min-width: auto;
+    }
+    .about-us .furthermore-if-your-container {
+      min-width: auto;
+    }
+    .about-us .apart-from-our-container {
+      min-width: auto;
+    }
+    .about-us .we-provide-professional-drain-container {
+      min-width: auto;
+    }
+    .about-us .team {
+      min-width: 100%;
+    }
+    .about-us .our-services-comes-with-guaran {
+      gap: var(--gap-xl);
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .about-us  .expert-image-wrapper,
+    .about-us  .slab-leak-service {
+      min-width: 100%;
+    }
+    .about-us  .count-on-ez-plumbing-usa-for-s {
+      gap: 25px;
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .about-us .call-button {
+      flex-wrap: wrap;
+    }
+    .about-us .call-experts-now {
+      gap: var(--gap-xl);
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .about-us  .ez-plumbing-started{
+      font-size: 14px;
+      }
+      .about-us .our-services-comes, .about-us .our-emergency-service {
+        font-size: 24px !important;text-align: start !important;
+      }
+      .about-us .guarantee-image{
+        flex-direction: column-reverse;
+      }
+      .thanks-to-the-container div::before{
+        width: 11px;
+        height: 11px;
+      }
+      .about-us .frame-parent{
+        display: unset !important;
+      }
+      .thanks-to-the-container div, .our-slab-leak div {
+        padding-left: 16px;
+  
+      }
+      .thanks-to-the-container div::before{
+        top: 8px;
+      }
+      .about-us .installing-ceramic-floor-tiles-icon{
+        object-fit: contain;
+        min-height: auto;
+      }
+      .about-us .expert-image{
+        position: relative;
+      }
+      .about-us .expert-image-wrapper{
+        height: auto;
+      }
+  }
+  @media screen and (max-width: 450px) {
+    .about-us .breadcrumbs {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .about-us  .about-us2 {
+      font-size: var(--font-size-3xl);
+    }
+    .about-us  .banner {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .about-us  .our-services-comes {
+      font-size: var(--font-size-3xl);
+    }
+    .about-us  .our-services-comes-with-guaran {
+      padding-top: var(--padding-6xl);
+      padding-bottom: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .about-us  .dont-let-plumbing,
+    .about-us  .our-emergency-service {
+      font-size: var(--font-size-3xl);
+    }
+    .about-us  .call-experts-now1,
+    .about-us  .space {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  

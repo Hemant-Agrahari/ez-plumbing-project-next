@@ -1,0 +1,308 @@
+.frameChild {
+  width: 380px;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  display: none;
+}
+
+.frameItem {
+  width: 127px;
+  height: 54px;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangleParent {
+  height: 100vh;
+  width: 380px;
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding:  var(--padding-lgi) var(--padding-5xl) var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--background-default);
+  font-family: var(--font-outfit);
+  padding-top: 14px;
+}
+
+.plusIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logoutIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.btnStyle {
+  padding: 14px 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: var(--primary-2);
+  border-color: var(--primary-2);
+  display: inline-block;
+  cursor: pointer; 
+  
+}
+
+.btnStyle:hover{
+  color: #fff;
+}
+
+.addPages {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-outfit);
+  color: var(--background-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+
+.buttons {
+  cursor: pointer;
+  border: 2px solid var(--background-default);
+  padding: var(--padding-2xs) var(--padding-56xl) var(--padding-xs);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+
+.divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--background-default);
+  box-sizing: border-box;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.logOut01Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logOut01Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+
+.logOut {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-outfit);
+  color: var(--background-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 65px;
+}
+
+.buttons1,
+.logout {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+
+.buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-mini);
+  background-color: var(--primary-2);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+
+.logout {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-lgi-5);
+}
+
+.logout .buttons .addPages:hover,
+.logOut:hover{
+  color: #fff;
+}
+
+.ucreateDashboardIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.dashboard {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 82px;
+}
+
+.actions, 
+.actionsdashboard {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-base);
+  z-index: 1;
+  color: #fff;
+}
+
+.actions:hover, 
+.actionsdashboard:hover {
+  color: #fff;
+}
+
+.download61 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.subAdminManagement {
+  position: relative;
+  line-height: 150%;
+}
+
+.actions1,.actionsdashboard,
+.management {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.actions1,
+.actionsdashboard{
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-base);
+  z-index: 1;
+  color: #fff;
+}
+
+.actions1:hover,
+.actionsdashboard:hover{
+  color: #fff;
+  background-color: var(--color-darkslateblue);
+}
+
+.management {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--background-default);
+  font-family: var(--font-outfit);
+  overflow-y: auto;  
+  max-height: 100vh;  
+  scrollbar-width: thin;  /* For Firefox */
+  scrollbar-color: white transparent;  /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.management::-webkit-scrollbar {
+  width: 5px;  
+}
+
+.management::-webkit-scrollbar-track {
+  background: transparent;   
+  border-radius: 10px;  
+}
+
+.management::-webkit-scrollbar-thumb {
+  background-color: white;  
+  border-radius: 10px;   
+  border: 1px solid transparent; 
+}
+
+.management::-webkit-scrollbar-thumb:hover {
+  background-color: #e0e0e0;  
+}
+
+
+/* .SideMenu_actions__tg8gM, 
+.SideMenu_actionsdashboard__32cDH {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-base);
+  z-index: 1;
+  color: #fff;
+} */
+
+
+@media screen and (max-width: 450px) {
+  .buttons {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .rectangleParent {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
